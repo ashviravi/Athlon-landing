@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scrollDown {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  75% {
+    transform: translateY(0.75rem);
+    opacity: 0;
+  }
+  76% {
+    transform: translateY(-0.75rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-out;
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 1s ease-out;
+}
+
+.animate-scrollDown {
+  animation: scrollDown 1.5s infinite;
+}
+
+/* Navbar Background and Shadow on Scroll */
+.navbar {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar-scrolled {
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar Links Styling */
+.navbar-link {
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: color 0.2s ease;
+}
+
+.navbar-link:hover {
+  color: #e8a418; /* Blue on hover */
+}
+
+/* Instagram Icon Styling */
+.navbar-instagram {
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+
+.navbar-instagram:hover {
+  color: #e8a418;
+}
+
+/* Join Us Button Styling */
+.join-us-button {
+  background-color: #e8a418; /* Blue background */
+  color: white;
+  padding: 0.5rem 1.25rem;
+  border-radius: 9999px; /* Rounded button */
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.join-us-button:hover {
+  background-color: #e8a418; /* Darker blue on hover */
+  transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+.join-us-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgb(232, 164, 24);
+}
+
+/* Mobile Menu Styles */
+.mobile-menu {
+  display: none;
+}
+
+.mobile-menu.open {
+  display: block;
+}
+
+/* Adjusting Instagram Icon and Button in Mobile */
+.mobile-instagram, .mobile-join-us-button {
+  padding: 0.5rem 1rem;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar-instagram {
+    font-size: 1.5rem;
+  }
+}
