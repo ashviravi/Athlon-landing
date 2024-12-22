@@ -18,9 +18,9 @@ const Navbar = () => {
 
   const navigationItems = [
     { name: 'Home', path: '/' },
-    { name: 'Features', path: '/featurespage' },
-    { name: 'About', path: '/AboutPage' },
-    { name: 'Contact', path: '/Contact' }
+    { name: 'Features', path: '/src/pages/featurespage' },
+    { name: 'About', path: '/src/pages/AboutPage' },
+    { name: 'Contact', path: '/src/pages//contactpage' }
   ];
 
   const handleNavClick = (path) => {

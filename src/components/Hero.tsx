@@ -36,7 +36,7 @@ const TypewriterEffect = ({ texts }: { texts: string[] }) => {
         return () => clearInterval(interval);
     }, [currentTextIndex, texts]);
 
-    return <span className="inline-block min-h-[40px]">{typingText}</span>;
+    return <span className="inline-block min-h-[90px] text-5xl">{typingText}</span>;
 };
 
 // HeroBackground Component
@@ -45,7 +45,7 @@ const HeroBackground = () => {
         <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{
-                backgroundImage: 'url("src/components/bgimage.png")',
+                backgroundImage: 'url("public/images/bgimage.png")',
             }}
         >
             <div className="absolute inset-0 bg-black opacity-50"></div>

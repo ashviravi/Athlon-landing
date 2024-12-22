@@ -9,7 +9,7 @@ const ComingSoonPage = () => {
                 <div className="container flex w-4/5 max-w-[1200px]">
                     <div className="left-side flex-1 flex justify-center items-center">
                         <img
-                            src="src\components\comingsoonathlon.jpg"
+                            src="public\images\comingsoonathlon.jpg"
                             alt="Athlon Coming Soon"
                             className="max-w-full h-auto"
                         />
@@ -32,14 +32,14 @@ const ComingSoonPage = () => {
                         <div className="app-buttons flex justify-left gap-8">
                             <a href="#">
                                 <img
-                                    src="src\components\googleplay.jpeg"
+                                    src="public\images\googleplay.jpeg"
                                     alt="Google Play"
                                     className="h-10"
                                 />
                             </a>
                             <a href="#">
                                 <img
-                                    src="src\components\app.png"
+                                    src="public\images\app.png"
                                     alt="App Store"
                                     className="h-10"
                                 />
@@ -50,6 +50,7 @@ const ComingSoonPage = () => {
 
         </div>
         </section>
+
 )
     ;
 };
