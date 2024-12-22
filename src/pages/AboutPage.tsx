@@ -8,21 +8,21 @@ const AboutPage = () => {
 
             description: 'Passionate about innovation and leading the company to new heights.',
             icon: <Heart color="#F43F5E" size={48} />,
-            image: '/public/images/niththilan.jpg'
+            image: '/images/niththilan.jpg'
         },
         {
             name: 'RagulanKeshan ',
 
             description: 'Expert in technology and development, driving the technical vision of our platform.',
             icon: <Heart color="#F43F5E" size={48} />,
-            image: '/public/images/keshan.jpg'
+            image: '/images/keshan.jpg'
         },
         {
             name: 'Balendran Harishith',
             role: 'COO',
             description: 'Focused on optimizing business operations and ensuring efficiency.',
             icon: <Heart color="#F43F5E" size={48} />,
-            image: '/public/images/hari.jpg'
+            image: '/images/hari.jpg'
         },
 
         {
@@ -30,7 +30,7 @@ const AboutPage = () => {
 
             description: 'Focused on optimizing business operations and ensuring efficiency.',
             icon: <Heart color="#F43F5E" size={48} />,
-            image: '/public/images/ashvi.jpg'
+            image: '/images/ashvi.jpg'
         },
 
         {
@@ -38,14 +38,14 @@ const AboutPage = () => {
 
             description: 'Focused on optimizing business operations and ensuring efficiency.',
             icon: <Heart color="#F43F5E" size={48} />,
-            image: '/public/images/nishva.jpg'
+            image: '/images/nishva.jpg'
         },
         {
             name: 'Kavishaniy Yoganathan',
 
             description: 'Focused on optimizing business operations and ensuring efficiency.',
             icon: <Heart color="#F43F5E" size={48} />,
-            image: '/public/images/kavi.jpg'
+            image: '/images/kavi.jpg'
         }
 
     ];

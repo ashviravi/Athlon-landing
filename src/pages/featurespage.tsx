@@ -15,25 +15,25 @@ const featurespage = () => {
             icon: <Calendar color="#3B82F6" size={48} />,
             title: "Real-Time Booking System",
             description: "View live court availability and make instant bookings across multiple locations. No more double bookings or scheduling conflicts.",
-            image: "/public/images/realtiime.jpg"
+            image: "/images/realtiime.jpg"
         },
         {
             icon: <Users color="#10B981" size={48} />,
             title: "Group Booking & Cost Splitting",
             description: "Plan group activities and split costs easily among participants. Perfect for team sports and casual games with friends.",
-            image: "/public/images/costsplit.jpg"
+            image: "/images/costsplit.jpg"
         },
         {
             icon: <MapPin color="#F43F5E" size={48} />,
             title: "Interactive 3D Facility Maps",
             description: "Explore sports facilities through interactive 3D maps. Check court layouts, amenities, and specific equipment before booking.",
-            image: "/public/images/3DMAP.jpg"
+            image: "/images/3DMAP.jpg"
         },
         {
             icon: <Sun color="#8B5CF6" size={48} />,
             title: "Weather-Based Recommendations",
             description: "Get smart suggestions for indoor or outdoor activities based on real-time weather conditions.",
-            image: "/public/images/weather.jpg"
+            image: "/images/weather.jpg"
         }
     ];
 

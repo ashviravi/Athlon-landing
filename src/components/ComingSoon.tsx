@@ -32,7 +32,7 @@ const ComingSoonPage = () => {
                         <div className="app-buttons flex justify-left gap-8">
                             <a href="#">
                                 <img
-                                    src="public\images\googleplay.jpeg"
+                                    src="\images\googleplay.jpeg"
                                     alt="Google Play"
                                     className="h-10"
                                 />
