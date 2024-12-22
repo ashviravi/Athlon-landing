@@ -39,7 +39,7 @@ const ComingSoonPage = () => {
                             </a>
                             <a href="#">
                                 <img
-                                    src="public\images\app.png"
+                                    src="\images\app.png"
                                     alt="App Store"
                                     className="h-10"
                                 />
