@@ -9,7 +9,7 @@ const ComingSoonPage = () => {
                 <div className="container flex w-4/5 max-w-[1200px]">
                     <div className="left-side flex-1 flex justify-center items-center">
                         <img
-                            src="public\images\comingsoonathlon.jpg"
+                            src="\images\comingsoonathlon.jpg"
                             alt="Athlon Coming Soon"
                             className="max-w-full h-auto"
                         />
